@@ -319,27 +319,27 @@ export const ReceiptPreview: React.FC<ReceiptPreviewProps> = ({ data, receiptRef
     <div className="h-full flex flex-col justify-between bg-gray-50 text-[#1F2937]">
       {/* Modern, clean white bank card layout with bright colors */}
       <div className="bg-white border-b border-gray-100 px-6 pt-10 pb-6 rounded-b-[2.5rem] shadow-sm relative overflow-hidden">
-        {/* Abstract pink gradient accents */}
-        <div className="absolute top-0 right-0 w-32 h-32 rounded-full bg-[#F54291]/10 blur-2xl pointer-events-none" />
+        {/* Abstract blue-green gradient accents */}
+        <div className="absolute top-0 right-0 w-32 h-32 rounded-full bg-[#00BAC6]/10 blur-2xl pointer-events-none" />
 
         <div className="flex justify-between items-center mb-6">
           <div className="flex items-center gap-2">
             {/* GoTyme stylized icon */}
-            <div className="w-7 h-7 rounded-full bg-gradient-to-tr from-[#F54291] to-purple-600 flex items-center justify-center">
+            <div className="w-7 h-7 rounded-full bg-gradient-to-tr from-[#00BAC6] to-teal-600 flex items-center justify-center">
               <span className="text-white text-xs font-black font-sans">go</span>
             </div>
             <span className="font-sans font-black text-lg tracking-tight text-[#111827]">
-              GoTyme <span className="font-medium text-[#F54291]">Bank</span>
+              GoTyme <span className="font-medium text-[#00BAC6]">Bank</span>
             </span>
           </div>
-          <div className="text-[10px] text-[#F54291] bg-[#F54291]/10 px-2 py-0.5 rounded font-bold uppercase tracking-wider">
+          <div className="text-[10px] text-[#00BAC6] bg-[#00BAC6]/10 px-2 py-0.5 rounded font-bold uppercase tracking-wider">
             Transfer Success
           </div>
         </div>
 
         <div className="flex flex-col items-center text-center mt-2">
-          <div className="w-12 h-12 rounded-full bg-[#F54291]/10 border border-[#F54291]/30 flex items-center justify-center mb-3">
-            <Check className="text-[#F54291] stroke-[3]" size={20} />
+          <div className="w-12 h-12 rounded-full bg-[#00BAC6]/10 border border-[#00BAC6]/30 flex items-center justify-center mb-3">
+            <Check className="text-[#00BAC6] stroke-[3]" size={20} />
           </div>
           <p className="text-xs text-gray-500 font-semibold tracking-wide uppercase">Amount Transferred</p>
           <h2 className="text-4xl font-black text-[#111827] mt-1 tracking-tight">
@@ -380,7 +380,7 @@ export const ReceiptPreview: React.FC<ReceiptPreviewProps> = ({ data, receiptRef
 
             <div className="flex justify-between items-center border-t border-gray-50 pt-2.5">
               <span className="text-gray-400 text-xs font-semibold">Total Deducted</span>
-              <span className="font-extrabold text-[#F54291] text-base">{formatCurrency(totalAmount)}</span>
+              <span className="font-extrabold text-[#00BAC6] text-base">{formatCurrency(totalAmount)}</span>
             </div>
           </div>
 

@@ -58,7 +58,7 @@ export const BANK_CONFIGS: Record<BankEWallet, BankConfig> = {
     id: 'gotyme',
     name: 'GoTyme',
     fullName: 'GoTyme Bank',
-    primaryColor: '#F54291', // Hot pink / violet branding
+    primaryColor: '#00BAC6', // Blue-green / turquoise branding
     secondaryColor: '#111827', // Dark backgrounds
     textColor: '#111827',
     logoBg: '#F3F4F6',
