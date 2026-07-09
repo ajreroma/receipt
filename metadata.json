@@ -1,0 +1,6 @@
+{
+  "name": "Receipt Generator",
+  "description": "Create, customize, and download high-quality, mobile-friendly transaction receipts for Chinabank, GoTyme, Maya, MariBank, and GCash.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
